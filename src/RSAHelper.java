@@ -32,7 +32,6 @@ public class RSAHelper {
 
     public BigInteger encrypt(String message) {
         BigInteger messageBytes = new BigInteger(message.getBytes());
-        System.out.println(messageBytes);
         return encrypt(messageBytes);
     }
 
